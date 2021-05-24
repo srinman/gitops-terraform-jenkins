@@ -43,7 +43,7 @@ try {
 
   if (env.BRANCH_NAME == 'master') {
 
-    // Run terraform apply
+    // Run terraform applyy
     stage('apply') {
       node {
         withCredentials([[
