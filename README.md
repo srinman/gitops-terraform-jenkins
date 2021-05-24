@@ -6,9 +6,7 @@ This repository will demonstrate an example GitOps workflow with Terraform and J
 
 The configuration in this repository was updated and now supports `Terraform v0.12.19`.
 
-Video can be found here:
-
-https://youtu.be/qFjGqPw1NUY
+Forked from  alexandarp/gitops-terraform-jenkins
 
 ## Requirements
 
@@ -25,7 +23,7 @@ You will need to create a bucket and reference the bucket name in the following 
 ```
 terraform {
   backend "s3" {
-    bucket = "terraform-bucket-alex"
+    bucket = "srinmanterraformbackend"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
